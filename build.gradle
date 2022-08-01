@@ -78,11 +78,10 @@ publishing {
 }
 
 // configure modrinth stuff
-import com.modrinth.minotaur.dependencies.ModDependency
 
 modrinth {
 	token = '$MODRINTH_TOKEN'
-	projectId = 'AABBCCDD'
+	projectId = 'RLrPqrNI'
 	versionNumber = '0.0.1'
 	versionName = 'v0.0.1'
 	uploadFile = remapJar
