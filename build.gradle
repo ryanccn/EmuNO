@@ -80,10 +80,10 @@ publishing {
 // configure modrinth stuff
 
 modrinth {
-	token = '$MODRINTH_TOKEN'
+	token = System.getenv("MODRINTH_TOKEN")
 	projectId = 'RLrPqrNI'
-	versionNumber = '0.0.1'
-	versionName = 'v0.0.1'
+	versionNumber = '0.0.2'
+	versionName = 'v0.0.2'
 	uploadFile = remapJar
 	gameVersions = ['1.19.1']
 	loaders = ['fabric']
