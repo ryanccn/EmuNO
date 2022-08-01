@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "me.ryanccn.emuno.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+  ],
+  "client": [
+    "EmuNOMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

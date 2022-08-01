@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "emuno",
+  "version": "${version}",
+
+  "name": "EmuNO",
+  "description": "A mod for disabling right-click emulation on macOS, fixing the clicking when sprinting bug",
+  "authors": [
+    "RyanCaoDev"
+  ],
+  "contact": {
+    "homepage": "https://ryanccn.dev",
+    "sources": "https://github.com/ryanccn/emuno"
+  },
+
+  "license": "MIT",
+  "icon": "assets/emuno/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "me.ryanccn.emuno.EmuNOMod"
+    ]
+  },
+  "mixins": [
+    "emuno.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.6",
+    "fabric": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
