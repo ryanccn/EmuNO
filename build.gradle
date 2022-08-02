@@ -82,10 +82,10 @@ publishing {
 modrinth {
 	token = System.getenv("MODRINTH_TOKEN")
 	projectId = 'RLrPqrNI'
-	versionNumber = '0.0.2'
-	versionName = 'v0.0.2'
+	versionNumber = project.mod_version
+	versionName = 'v' + project.mod_version
 	uploadFile = remapJar
-	gameVersions = ['1.19.1']
+	gameVersions = [project.minecraft_version]
 	loaders = ['fabric']
 	dependencies = []
 }
