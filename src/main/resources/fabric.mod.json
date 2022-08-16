@@ -4,7 +4,7 @@
   "version": "${version}",
 
   "name": "EmuNO",
-  "description": "A mod for disabling right-click emulation on macOS, fixing the clicking when sprinting bug",
+  "description": "Disables various macOS-specific behaviors, making your life better",
   "authors": [
     "RyanCaoDev"
   ],
