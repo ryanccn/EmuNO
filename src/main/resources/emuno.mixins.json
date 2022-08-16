@@ -7,7 +7,7 @@
   ],
   "client": [
     "MouseMixin",
-    "KeyboardMixin"
+    "BatchDropMixin"
   ],
   "injectors": {
     "defaultRequire": 1
