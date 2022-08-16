@@ -9,6 +9,6 @@ public class EmuNOMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		LOGGER.info("EmuNO has initialized! Brrr");
+		LOGGER.info("EmuNO has initialized! Enjoy gaming :D");
 	}
 }
