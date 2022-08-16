@@ -6,7 +6,8 @@
   "mixins": [
   ],
   "client": [
-    "EmuNOMixin"
+    "MouseMixin",
+    "KeyboardMixin"
   ],
   "injectors": {
     "defaultRequire": 1
