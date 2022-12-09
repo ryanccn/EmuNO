@@ -1,4 +1,4 @@
-package me.ryanccn.emuno;
+package dev.ryanccn.emuno;
 
 import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
