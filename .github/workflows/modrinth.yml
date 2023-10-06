@@ -15,7 +15,8 @@ jobs:
           java-version: 17
 
       - run: ./gradlew build
-      - uses: Kir-Antipov/mc-publish@v3.1
+
+      - uses: Kir-Antipov/mc-publish@v3.3
         with:
           modrinth-id: RLrPqrNI
           modrinth-token: ${{ secrets.MODRINTH_TOKEN }}

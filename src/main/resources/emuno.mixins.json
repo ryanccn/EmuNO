@@ -7,8 +7,7 @@
   ],
   "client": [
     "MouseMixin",
-    "BatchDropMixin",
-    "ShiftScrollMixin"
+    "BatchDropMixin"
   ],
   "injectors": {
     "defaultRequire": 1

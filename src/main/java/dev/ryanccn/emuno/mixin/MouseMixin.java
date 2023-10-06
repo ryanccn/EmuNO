@@ -10,7 +10,6 @@ import org.spongepowered.asm.mixin.injection.Redirect;
 public class MouseMixin {
 	@Redirect(method = "onMouseButton", at = @At(value = "FIELD", target = "Lnet/minecraft/client/MinecraftClient;IS_SYSTEM_MAC:Z"))
 	private boolean pretendToNotBeMacOS() {
-		// amogus
 		return false;
 	}
 }

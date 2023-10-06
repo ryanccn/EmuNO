@@ -77,8 +77,6 @@ publishing {
 	}
 }
 
-// configure modrinth stuff
-
 modrinth {
 	token = System.getenv("MODRINTH_TOKEN")
 	projectId = 'RLrPqrNI'
