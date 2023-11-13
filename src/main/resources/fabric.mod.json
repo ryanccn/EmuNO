@@ -16,7 +16,7 @@
   "license": "MIT",
   "icon": "assets/emuno/icon.png",
 
-  "environment": "*",
+  "environment": "client",
   "entrypoints": {
     "main": [
       "dev.ryanccn.emuno.EmuNOMod"
@@ -28,7 +28,6 @@
 
   "depends": {
     "fabricloader": ">=0.14.6",
-    "fabric-api": "*",
     "minecraft": "~1.20",
     "java": ">=17"
   }
