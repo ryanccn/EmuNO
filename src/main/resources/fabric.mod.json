@@ -15,7 +15,7 @@
   "icon": "assets/emuno/icon.png",
   "environment": "client",
   "entrypoints": {
-    "main": [
+    "client": [
       "dev.ryanccn.emuno.EmuNO"
     ]
   },
