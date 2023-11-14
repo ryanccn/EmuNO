@@ -1,4 +1,4 @@
-package dev.ryanccn.mixin;
+package dev.ryanccn.emuno.mixin;
 
 import net.minecraft.client.Mouse;
 import org.spongepowered.asm.mixin.Mixin;
