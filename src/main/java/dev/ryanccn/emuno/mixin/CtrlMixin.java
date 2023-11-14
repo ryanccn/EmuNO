@@ -8,7 +8,7 @@ import org.spongepowered.asm.mixin.injection.Redirect;
 import org.lwjgl.glfw.GLFW;
 
 @Mixin(MinecraftClient.class)
-public class BatchDropMixin {
+public class CtrlMixin {
     @Redirect(
             method = "handleInputEvents()V",
             at = @At(value = "INVOKE", target = "Lnet/minecraft/client/gui/screen/Screen;hasControlDown()Z")
