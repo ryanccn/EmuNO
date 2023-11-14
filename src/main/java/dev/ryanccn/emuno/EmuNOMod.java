@@ -7,7 +7,7 @@ import org.slf4j.LoggerFactory;
 public class EmuNOMod implements ClientModInitializer {
 	public static final Logger LOGGER = LoggerFactory.getLogger("emuno");
 	@Override
-	public void onInitialize() {
+	public void onInitializeClient() {
 		LOGGER.info("EmuNO has initialized! Enjoy gaming :D");
 	}
 }
