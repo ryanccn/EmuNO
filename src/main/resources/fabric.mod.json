@@ -16,7 +16,7 @@
   "environment": "client",
   "entrypoints": {
     "main": [
-      "dev.ryanccn.emuno.EmuNOMod"
+      "dev.ryanccn.EmuNO"
     ]
   },
   "mixins": [
