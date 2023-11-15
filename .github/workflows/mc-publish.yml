@@ -1,6 +1,7 @@
 name: Publish to Modrinth and Curseforge
 on:
-  release: 
+  workflow_dispatch:
+  release:
     types: [published]
 
 jobs:
