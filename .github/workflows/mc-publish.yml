@@ -1,8 +1,5 @@
-name: Publish to Modrinth and Curseforge
-on:
-  workflow_dispatch:
-  release:
-    types: [published]
+name: Publish to Github, Modrinth, Curseforge
+on: [workflow_dispatch]
 
 jobs:
   build:
