@@ -1,5 +1,7 @@
 name: publish
-on: [workflow_dispatch]
+on: 
+  release:
+    types: [published]
 
 jobs:
   build:
@@ -25,4 +27,3 @@ jobs:
           modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
           curseforge-id: 933674
           curseforge-token: ${{ secrets.CURSEFORGE_TOKEN }}
-          github-token: ${{ secrets.GITHUB_TOKEN }}
