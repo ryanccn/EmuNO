@@ -16,7 +16,7 @@
   "license": "MIT",
   "icon": "assets/emuno/icon.png",
 
-  "environment": "*",
+  "environment": "client",
   "entrypoints": {
     "main": [
       "dev.ryanccn.emuno.EmuNOMod"
